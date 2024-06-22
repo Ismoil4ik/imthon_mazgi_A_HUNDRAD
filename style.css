@@ -268,19 +268,15 @@
     transition: all 0.3s;
 }
 
-.login_form>input::placeholder{
-    color: #3D3B48;
-}
-
 .login_form>input:hover {
     border: 1px solid #5E54A4;
     transition: all 0.3s;
 }
 
-.login_form>input::placeholder:focus {
+/* .login_form>input::placeholder:focus {
     color: #3D3B48;
     transition: all 0.3s;
-}
+} */
 
 .login_form>input::placeholder {
     padding: 7px 0 6.11px 32px;
